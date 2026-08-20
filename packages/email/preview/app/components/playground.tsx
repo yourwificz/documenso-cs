@@ -12,6 +12,7 @@ type Theme = 'light' | 'dark';
 const GROUP_ORDER = ['Documents', 'Recipients', 'Organisations', 'Teams', 'Account', 'Admin'] as const;
 
 const LANGUAGE_LABELS: Record<string, string> = {
+  cs: 'Czech',
   en: 'English',
   de: 'German',
   fr: 'French',
